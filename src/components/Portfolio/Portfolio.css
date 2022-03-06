@@ -1,0 +1,49 @@
+.portfolio {
+  background-color: #262626;
+}
+
+.portfolio__container {
+  margin: 0px 300px;
+}
+
+.portfolio__wrapper {
+  text-align: center;
+}
+
+.portfolio__cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+}
+
+.portfolio__card {
+  width: 300px;
+  height: 450px;
+  /* background-color: aqua; */
+  background-image: url('../../images/around-us.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio__span {
+  font-family: 'SF-pro-display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0fb;
+  margin-right: 7px;
+}
+
+.portfolio__title {
+  font-family: 'SF-pro-display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  margin-top: 16px;
+}

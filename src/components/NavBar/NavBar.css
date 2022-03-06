@@ -1,0 +1,28 @@
+.navBar {
+  height: 90px;
+  /* position: fixed; */
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
+.navBar__container {
+  height: 90px;
+  display: flex;
+  margin: 0px 350px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navBar__nav {
+  display: flex;
+  padding: 0px;
+  gap: 40px;
+}
+
+.navBar__link {
+  font-family: 'red-hat-display', sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  color: white;
+  list-style: none;
+  font-size: 18px;
+}

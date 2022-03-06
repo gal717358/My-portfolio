@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SF-pro-display';
+    src: url(./SF\ Pro\ Display\ Regular.woff);
+    src: url(./SF\ Pro\ Display\ Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF-pro-display';
+    src: url(./SF\ Pro\ Display\ Bold.woff);
+    src: url(./SF\ Pro\ Display\ Bold.woff2);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'red-hat-display';
+    src: url(./red-hat-display-v11-latin-regular.woff);
+    src: url(./red-hat-display-v11-latin-regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'red-hat-display';
+    src: url(./red-hat-display-v11-latin-500.woff);
+    src: url(./red-hat-display-v11-latin-500.woff2);
+    font-weight: 500;
+}
