@@ -2,20 +2,31 @@
   height: 90px;
   /* position: fixed; */
   background-color: rgba(0, 0, 0, 0.205);
+  opacity: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 1903px;
 }
 
 .navBar__container {
   height: 90px;
   display: flex;
   margin: 0px 350px;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+.navBar__logo{
+    width: 68px;
+    align-self: center;
 }
 
 .navBar__nav {
   display: flex;
   padding: 0px;
   gap: 40px;
+  list-style: none;
 }
 
 .navBar__link {
@@ -25,4 +36,5 @@
   color: white;
   list-style: none;
   font-size: 18px;
+text-decoration: none;
 }

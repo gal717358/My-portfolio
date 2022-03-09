@@ -16,7 +16,7 @@ function Header() {
             I’m a junior full stack developer looking for my first position,
             based in Tel Aviv.
           </p>
-          <a href='/' download> <button className='header__button'> Hire Me </button> </a>
+          <a href='tel:054-6741482' download> <button className='header__button'> Hire Me </button> </a>
         </div>
         <img className='header__image' src={myPhoto} alt='myPhoto' />
       </div>

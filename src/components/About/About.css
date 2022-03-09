@@ -1,15 +1,23 @@
 .about {
   background-color: #262626;
+  padding:15px 0px ;
 }
 
 .about__container {
   display: flex;
-  margin: 0px 540px;
-  padding: 100px 0px;
+  margin: 90px 540px;
 }
 .about__image {
-  width: 430px;
-  height: 530px;
+  width: 400px;
+  height: 510px;
+  border: solid 7px #0fb;
+  border-bottom: 0px;
+  border-right: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-shadow: 0.5px 0.5px;
+  background-color: #212121;
+  opacity: 0.6;
 }
 
 .about__text-wrapper{

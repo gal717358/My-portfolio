@@ -3,21 +3,21 @@ import myCv from '../../images/CV_Gal_Buzaglo.pdf';
 
 function About() {
   return (
-    <div className='about'>
+    <div id="about" className='about'>
       <div className='about__container'>
         <img className='about__image' src={profileImage} alt='my-img' />
         <div className='about__text-wrapper'>
           <span className='about__span'>Who i am ---</span>
           <h3 className='about__title'>About Me</h3>
           <p className='about__text'>
-            I’m Oluwakemi Adeleke, a professional and talented Product Designer
-            with front end development skills. I am passionate about leveraging
+            I’m Gal Buzaglo, a junior full stack web developer
+            with front end and back end development skills. I am passionate about leveraging
             my diverse backgrounds to decipher challenging problems and create
             delightful experiences. I honed my skills at web development,
-            technical writing, product design and SEO analytics.
+            technical writing and digital marketing.
           </p>
           <p className='about__text'>
-            I develop websites with HTML, CSS and JavaScript. I have top skills
+            I develop websites with HTML, CSS and JavaScript/ReactJs. I have top skills
             in using design softwares like Figma, Adobe XD, Invision and
             PhotoShop; with prototype tools like Framer and Protopie.
           </p>
