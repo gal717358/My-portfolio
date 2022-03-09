@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "./static/css/main.71eea62d.css",
+    "main.js": "./static/js/main.b37eb418.js",
+    "static/media/neptune-fruit.PNG": "./static/media/neptune-fruit.3c91a06401b006d74f22.PNG",
+    "static/media/zvia-dover.PNG": "./static/media/zvia-dover.633723450329e162303d.PNG",
+    "static/media/toysland.PNG": "./static/media/toysland.77d37b99871f67dd62f8.PNG",
+    "static/media/edvgde.PNG": "./static/media/edvgde.5b09293fea27f6ad994f.PNG",
+    "static/media/portland-to-portland.jpg": "./static/media/portland-to-portland.812d3ac533583b26f11b.jpg",
+    "static/media/news-explorer.png": "./static/media/news-explorer.ec9074ec976cf8b3842a.png",
+    "static/media/SF Pro Display Regular.woff": "./static/media/SF Pro Display Regular.adba304e264b52d8e6ce.woff",
+    "static/media/SF Pro Display Bold.woff": "./static/media/SF Pro Display Bold.a1c525c1c0a3cc4d318c.woff",
+    "static/media/around-us.jpg": "./static/media/around-us.ceba4a4b17f90f81b086.jpg",
+    "static/media/SF Pro Display Regular.woff2": "./static/media/SF Pro Display Regular.dd929af95eccb12c4727.woff2",
+    "static/media/SF Pro Display Bold.woff2": "./static/media/SF Pro Display Bold.479185ec8b28d5b57197.woff2",
+    "static/media/myPhoto.png": "./static/media/myPhoto.3652d0eb5938e84a8655.png",
+    "static/media/CV_Gal_Buzaglo.pdf": "./static/media/CV_Gal_Buzaglo.41321bf9d15837079e9e.pdf",
+    "static/media/man-technologist.png": "./static/media/man-technologist.c4ddde9fcec40e82261b.png",
+    "static/media/gb__2_-removebg-preview.png": "./static/media/gb__2_-removebg-preview.2d0a277e8c95b3017c7c.png",
+    "static/media/red-hat-display-v11-latin-500.woff": "./static/media/red-hat-display-v11-latin-500.43253bc14280253b289b.woff",
+    "static/media/red-hat-display-v11-latin-regular.woff": "./static/media/red-hat-display-v11-latin-regular.5fbd867dcdd2af35eb5c.woff",
+    "static/media/red-hat-display-v11-latin-500.woff2": "./static/media/red-hat-display-v11-latin-500.7252297455616b6c2a65.woff2",
+    "static/media/red-hat-display-v11-latin-regular.woff2": "./static/media/red-hat-display-v11-latin-regular.a692839c1c376e49c625.woff2",
+    "static/media/emoji.svg": "./static/media/emoji.5b1646543623c6cd2f03b5d6831a7339.svg",
+    "static/media/linkedin.svg": "./static/media/linkedin.d8f343f778632f7a380231f29ea987ab.svg",
+    "static/media/whatsapp.svg": "./static/media/whatsapp.34aa88d2dd051393ab5d37f8ebf91c9a.svg",
+    "index.html": "./index.html",
+    "main.71eea62d.css.map": "./static/css/main.71eea62d.css.map",
+    "main.b37eb418.js.map": "./static/js/main.b37eb418.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71eea62d.css",
+    "static/js/main.b37eb418.js"
+  ]
+}
