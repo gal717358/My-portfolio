@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.71eea62d.css",
+    "main.css": "./static/css/main.2e327c53.css",
     "main.js": "./static/js/main.f904ef13.js",
     "static/media/neptune-fruit.PNG": "./static/media/neptune-fruit.3c91a06401b006d74f22.PNG",
     "static/media/zvia-dover.PNG": "./static/media/zvia-dover.633723450329e162303d.PNG",
@@ -25,11 +25,11 @@
     "static/media/linkedin.svg": "./static/media/linkedin.d8f343f778632f7a380231f29ea987ab.svg",
     "static/media/whatsapp.svg": "./static/media/whatsapp.34aa88d2dd051393ab5d37f8ebf91c9a.svg",
     "index.html": "./index.html",
-    "main.71eea62d.css.map": "./static/css/main.71eea62d.css.map",
+    "main.2e327c53.css.map": "./static/css/main.2e327c53.css.map",
     "main.f904ef13.js.map": "./static/js/main.f904ef13.js.map"
   },
   "entrypoints": [
-    "static/css/main.71eea62d.css",
+    "static/css/main.2e327c53.css",
     "static/js/main.f904ef13.js"
   ]
 }
