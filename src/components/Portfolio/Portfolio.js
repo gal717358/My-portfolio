@@ -7,10 +7,12 @@ import portToPott from '../../images/portland-to-portland.jpg';
 
 function Portfolio() {
   return (
-    <div id="portfolio" className='portfolio'>
+    <div id='portfolio' className='portfolio'>
       <div className='portfolio__container'>
         <div className='portfolio__wrapper'>
-          <span id="portfolio" className='portfolio__span'>My Projects ---</span>
+          <span id='portfolio' className='portfolio__span'>
+            My Projects ---
+          </span>
           <h3 className='portfolio__title'>My Portfolio</h3>
         </div>
         <div className='portfolio__cards'>
@@ -60,18 +62,14 @@ function Portfolio() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img
-              className='portfolio__card'
-              src={toysland}
-              alt='toysland'
-            />{' '}
+            <img className='portfolio__card' src={toysland} alt='toysland' />{' '}
           </a>
           <a
             href='https://zviadover.com/'
             target='_blank'
             rel='noopener noreferrer'
           >
-          <img className='portfolio__card' src={zviaDover} alt='zviaDover' />
+            <img className='portfolio__card' src={zviaDover} alt='zviaDover' />
           </a>
         </div>
       </div>

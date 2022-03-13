@@ -1,5 +1,5 @@
 .technologies {
-  padding: 120px 0px 60px;
+  padding: 50px 0px 60px;
 }
 
 .technologies__container {
@@ -46,5 +46,76 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0px;
   padding-top: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .technologies__container {
+    margin: 40px 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .technologies__block {
+    width: 135px;
+    height: 135px;
+  }
+
+  .technologies__wrapper {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 878px) {
+  .technologies__container {
+    margin: 40px 40px;
+  }
+
+  .technologies__block {
+    width: 100px;
+    height: 100px;
+  }
+
+  .technologies__wrapper {
+    gap: 30px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .technologies__span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .technologies__container {
+    margin: 0px 20px;
+    flex-direction: column;
+  }
+  .technologies__wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .technologies__block {
+    width: 200px;
+    height: 200px;
+  }
+  .technologies__wrapper {
+    gap: 30px;
+    padding: 40px 0px 0px;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .technologies__span {
+    font-size: 22px;
+  }
 }

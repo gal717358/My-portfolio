@@ -1,6 +1,6 @@
 .portfolio {
   background-color: #262626;
-  padding:30px 0px ;
+  padding: 30px 0px;
 }
 
 .portfolio__container {
@@ -29,13 +29,10 @@
   opacity: 0.6;
 }
 .portfolio__card:hover {
-  /* background-color: #2626261e; */
-opacity: 1;
-/* animation-duration: 0.2s; */
-/* animation-delay: 5s; */
-transition: width 0.6s, height 0.6s;
-width: 310px;
-height: 460px;
+  opacity: 1;
+  transition: width 0.6s, height 0.6s;
+  width: 310px;
+  height: 460px;
 }
 
 .portfolio__span {
@@ -56,4 +53,28 @@ height: 460px;
   line-height: 29px;
   color: #fff;
   margin-top: 16px;
+}
+
+@media screen and (max-width: 1440px) {
+  .portfolio__container {
+    margin: 40px 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    margin: 40px 40px;
+  }
+}
+@media screen and (max-width: 878px) {
+  .portfolio__container {
+    margin: 40px 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .portfolio__container {
+    margin: 0px 20px;
+    flex-direction: column;
+  }
 }

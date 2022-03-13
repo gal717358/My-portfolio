@@ -1,25 +1,25 @@
 .navBar {
   height: 90px;
-  /* position: fixed; */
   background-color: rgba(0, 0, 0, 0.205);
   opacity: 1;
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 1903px;
+  width: 100%;
 }
 
 .navBar__container {
   height: 90px;
   display: flex;
-  margin: 0px 350px;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 350px;
+  background-color: transparent;
 }
 
-.navBar__logo{
-    width: 68px;
-    align-self: center;
+.navBar__logo {
+  width: 68px;
+  align-self: center;
 }
 
 .navBar__nav {
@@ -36,5 +36,59 @@
   color: white;
   list-style: none;
   font-size: 18px;
-text-decoration: none;
+  text-decoration: none;
+}
+.navBar__mobile-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .navBar__container {
+    margin: 0px 120px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navBar__container {
+    margin: 0px 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navBar__container {
+    margin: 0px 40px;
+  }
+
+  .navBar__nav {
+    gap: 5px;
+  }
+  .navBar__link {
+    font-size: 16px;
+  }
+  .navBar__logo {
+    width: 48px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .navBar {
+    height: 60px;
+  }
+
+  .navBar__container {
+    margin: 0px 12px;
+    height: 60px;
+  }
+
+  .navBar__nav {
+    display: none;
+  }
+
+  .navBar__mobile-icon {
+    display: block;
+    color: white;
+    height: 24px;
+    width: 24px;
+  }
+  .navBar__mobile-icon_opened {
+    display: none;
+  }
 }

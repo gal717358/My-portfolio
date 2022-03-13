@@ -1,11 +1,12 @@
 .about {
   background-color: #262626;
-  padding:15px 0px ;
+  padding: 0px;
 }
 
 .about__container {
   display: flex;
-  margin: 90px 540px;
+  margin: 90px 450px;
+  justify-content: space-between;
 }
 .about__image {
   width: 400px;
@@ -18,40 +19,78 @@
   box-shadow: 0.5px 0.5px;
   background-color: #212121;
   opacity: 0.6;
+  object-fit: cover;
 }
 
-.about__text-wrapper{
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
+.about__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
 }
 
-.about__span{
-    font-family: 'SF-pro-display', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #0fb;
-    margin-right: 7px;
+.about__span {
+  font-family: 'SF-pro-display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0fb;
+  margin-right: 7px;
 }
 
-.about__title{
-    font-family: 'SF-pro-display', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #fff;
-    margin-top: 16px;
+.about__title {
+  font-family: 'SF-pro-display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  margin-top: 16px;
 }
-.about__text{
-    font-family: 'SF-pro-display', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #fff;
-    margin-bottom: 24px;
-    
+.about__text {
+  font-family: 'SF-pro-display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 24px;
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1440px) {
+  .about__container {
+    margin: 40px 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about__image {
+    width: 300px;
+    height: 410px;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+}
+@media screen and (max-width: 878px) {
+  .about__container {
+    margin: 40px 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about__container {
+    margin: 0px 20px;
+    flex-direction: column-reverse;
+  }
+
+  .about__text-wrapper {
+    padding: 50px 0px;
+  }
+
+  .about__image {
+    align-self: center;
+  }
 }

@@ -7,7 +7,7 @@
   justify-content: space-between;
   margin: 0px 350px;
   align-items: center;
-  padding-top: 50px;
+  height: 700px;
 }
 
 .header__image {
@@ -37,8 +37,8 @@
   font-family: 'SF-pro-display', sans-serif;
   font-weight: 500;
 }
-.header__icon{
-    width: 26px;
+.header__icon {
+  width: 26px;
 }
 
 .header__description {
@@ -47,9 +47,11 @@
   color: white;
   font-size: 18px;
   line-height: 1.2;
-  width: 350px;
+  max-width: 350px;
   letter-spacing: 0.5px;
   margin-bottom: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .header__button {
@@ -62,4 +64,82 @@
   cursor: pointer;
   border-color: transparent;
   font-size: 18px;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__container {
+    margin: 0px 120px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__container {
+    margin: 0px 80px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 878px) {
+  .header__image {
+    width: 300px;
+  }
+
+  .header__name {
+    font-size: 38px;
+    width: 40px;
+  }
+
+  .header__intro {
+    font-family: 'SF-pro-display', sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .header__job {
+    font-size: 16px;
+  }
+
+  .header__description {
+    max-width: 250px;
+  }
+
+  .header__button {
+    width: 150px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .header__container {
+    margin: 0px 20px;
+    flex-direction: column-reverse;
+    padding: 100px 0px 20px;
+  }
+  .header__image {
+    width: 300px;
+  }
+
+  .header__name {
+    font-size: 48px;
+    width: 40px;
+  }
+
+  .header__intro {
+    font-family: 'SF-pro-display', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+  }
+
+  .header__job {
+    font-size: 18px;
+  }
+
+  .header__description {
+    max-width: 250px;
+  }
+
+  .header__button {
+    width: 150px;
+    height: 40px;
+  }
 }
